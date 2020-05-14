@@ -59,9 +59,10 @@ Tested on Python 3.7
 2. The Faster RCNN model is able to **achieve accuracy of more than 90% for detecting a card in the image.**
 3. For extracting Text from the Image **the model needs to be customized** as per the nature of different cards like Aadhar Card, Driving License, Pan Card, etc. 
 
-For Aadhar Card Images the performance measures are:  
-**Time:** 7.377748966217041 seconds  
-**Ram Usage:** 779735040 bytes/ 0.77 GB
+#### For Aadhar Card Images the performance measures are:  
+1. **Time:** 7.38 seconds  
+2. **Ram Usage:** 779735040 bytes/ 0.77 GB  
+3. **CPU Usage:** Around 55K of event cycles  
 
 (The above steps were **implemented for extracting Information from Aadhar Card** and the model works well for it)
 

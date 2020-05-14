@@ -13,7 +13,6 @@ import cv2
 import numpy as np
 import tensorflow as tf
 import sys
-
 from PIL import Image
 
 # This is needed since the notebook is stored in the object_detection folder.
@@ -129,8 +128,7 @@ cv2.waitKey(0)
 # Clean up
 cv2.destroyAllWindows()
 
-
-####################################################################################################################
+#-----------------------Code to Extract Information from the Image-----------------------#
 
 # Module to extract information from the image
 # path = sys.argv[1] # To get the path from the user
@@ -271,7 +269,7 @@ with open(fName, 'r') as f:
     ndata = json.load(f)
 
 
-print("\n+++++++++++++++++++++++++++++++\n")
+print("\n-----------------------------\n")
 print(ndata['Name'])
 print("-------------------------------")
 print(ndata['Gender'])
