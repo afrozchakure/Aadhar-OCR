@@ -23,7 +23,7 @@
 * The output JSON file will be present in ``result`` folder.
 
 #### How to Run:
-Tested on Python 3.7
+Tested on Python 3.6.9
 
 ##### Requirements:
 * Tensorflow
@@ -31,13 +31,13 @@ Tested on Python 3.7
 * pytesseract
 * numpy 
 
-1. To install the requirements.
-    ``pip install -r requirements.txt``
+1. To install the requirements.  
+``pip install -r requirements.txt``
     
-2. Runs the application with the default webcam. (To detect ID card in live video stream)
-    ``python3 id_card_detection_camera.py``
+2. Runs the application with the default webcam. (To detect ID card in live video stream)  
+``python3 id_card_detection_camera.py``
 
-3. Runs the application with the image file. Default image file "test_images/image1.jpg".
+3. Runs the application with the image file. Default image file "test_images/image1.jpg".  
 ``python3 id_card_detail_extract.py ``
 	
 
@@ -60,10 +60,19 @@ Tested on Python 3.7
 3. For extracting Text from the Image **the model needs to be customized** as per the nature of different cards like Aadhar Card, Driving License, Pan Card, etc. 
 
 #### For Aadhar Card Images the performance measures are:  
-1. **Time:** 7.38 seconds  
-2. **Ram Usage:** 779735040 bytes/ 0.77 GB  
+1. **Time:** 6.92 seconds  
+2. **Ram Usage:** 0.74 GB  
 3. **CPU Usage:** Around 55K of event cycles  
+
+| Task                                                 | Time         | Ram Usage       |
+|------------------------------------------------------|--------------|-----------------|
+| Text detection with faster RCNN                      | 5.97 seconds | 0.74 GB |
+| Cropping the image (And if not displaying the cropped image) | 0.09 seconds | 0.74 GB |
+| Extracting text with OCR and saving in JSON          | 0.08 seconds | 0.74 GB |
+| Total time taken by Entire code                      | 6.92 seconds | 0.74 GB |
 
 (The above steps were **implemented for extracting Information from Aadhar Card** and the model works well for it)
 
-
+#### Future Steps:   
+* The ``namedb1.csv`` file could be used to check whether the name of person whose Aadhar Card is being scanned is present in our database or not. 
+* If not it can give us an Alert that it's not a valid person in the database.
