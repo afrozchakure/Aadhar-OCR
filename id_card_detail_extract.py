@@ -209,8 +209,8 @@ with open('namedb1.csv', 'r') as f:
 newlist = sum(newlist, [])
 
 # Printing the name of the user
-print("Print Name: ", text1[1][3:])
-name_new = text1[1][3:]  # Extracting name from the image
+print("Print Name: ", text1[1])
+name_new = text1[1]  # Extracting name from the image
 
 
 """
