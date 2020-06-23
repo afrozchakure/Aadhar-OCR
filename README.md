@@ -75,4 +75,4 @@ Tested on Python 3.6.9
 
 #### Future Steps:   
 * The ``namedb1.csv`` file could be used to check whether the name of person whose Aadhar Card is being scanned is present in our database or not. 
-* If not it can give us an Alert that it's not a valid person in the database.
+* If not it can give us an Alert that it is not a valid person in the database.
