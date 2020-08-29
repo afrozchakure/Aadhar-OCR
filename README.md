@@ -1,5 +1,12 @@
 
 ## ID Recognition
+ 
+[![GitHub stars](https://img.shields.io/github/stars/afrozchakure/Aadhar-OCR?color=green&style=for-the-badge)](https://github.com/afrozchakure/Aadhar-OCR/stargazers)
+[![GitHub license](https://img.shields.io/github/license/afrozchakure/Aadhar-OCR?color=blue&style=for-the-badge)](https://github.com/afrozchakure/Aadhar-OCR/blob/master/LICENSE)
+[![GitHub forks](https://img.shields.io/github/forks/afrozchakure/Aadhar-OCR?color=orange&style=for-the-badge)](https://github.com/afrozchakure/Aadhar-OCR/network)
+[![Visits Badge](https://badges.pufler.dev/visits/afrozchakure/Aadhar-OCR?color=blueviolet&style=for-the-badge)](https://badges.pufler.dev)
+[![Created Badge](https://badges.pufler.dev/created/afrozchakure/Aadhar-OCR?color=yellowgreen&style=for-the-badge)](https://badges.pufler.dev)
+[![Updated Badge](https://badges.pufler.dev/updated/afrozchakure/Aadhar-OCR?color=red&style=for-the-badge)](https://badges.pufler.dev)
 
 ### Structure and Usage - 
 
