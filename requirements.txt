@@ -6,7 +6,7 @@ tensorflow_object_detection_api==0.1.1
 opencv_python==4.1.0.25
 Cython==0.29.15
 pytest==5.4.1
-lxml==4.5.0
+lxml==4.6.2
 scipy==1.4.1
 cryptography==3.2
 tensorflow==1.15.4
